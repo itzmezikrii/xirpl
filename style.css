@@ -113,7 +113,7 @@ body{
     width: 100px;
    }
    .Wakel{
-    width: 10rem; height: auto; background-color: rgb(0, 2, 32); color: white; font-family: Poppins; margin-bottom: 50px; margin-left: 50%;
+    width: 10rem; height: auto; background-color: rgb(0, 2, 32); color: white; font-family: Poppins; margin-bottom: 50px; margin-left: 30%;
    }
    .cardPhone{
     width: 156px;
@@ -129,3 +129,13 @@ body{
     margin-bottom: -10px;
    }
   }
+  @media (max-width: 480px) {
+    #beranda h1{
+        font-size: 1.4rem;
+        margin-top: 20px;
+       }
+       #beranda p{
+        font-size: 1.1rem;
+    
+       }
+}

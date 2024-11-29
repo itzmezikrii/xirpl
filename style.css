@@ -113,7 +113,7 @@ body{
     width: 100px;
    }
    .Wakel{
-    width: 10rem; height: auto; background-color: rgb(0, 2, 32); color: white; font-family: Poppins; margin-bottom: 50px; margin-left: 100px;
+    width: 10rem; height: auto; background-color: rgb(0, 2, 32); color: white; font-family: Poppins; margin-bottom: 50px; margin-left: 50%;
    }
    .cardPhone{
     width: 156px;

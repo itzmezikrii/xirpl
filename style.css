@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: rgb(0, 1, 21);
+    background: linear-gradient(180deg, rgba(0, 1, 21, 1) 0%, rgba(0, 1, 21, 1) 100%);
+}
+.navbar{
+    background: rgb(0, 2, 32);
+    background: linear-gradient(180deg, rgba(0, 2, 32,1) 0%, rgba(0, 2, 32,1) 100%);
+}
+.navbar .navbar-brand,
+.navbar .nav-link{
+    color: white;
+    font-family: 'Parkinsans';
+    transition: all 0.2s ease-in-out;
+
+}
+.navbar .nav-item:hover{
+    opacity: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+#beranda{
+    font-family: Poppins;
+    color: whitesmoke;
+}
+
+.line{
+    height: 1px;
+    width: 299px;
+    left: 890px;
+    background-color: white;
+    opacity: 90%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#tentang p{
+    opacity: 80%;
+}
+
+.Wakel{
+    width: 16rem; background-color: rgb(0, 2, 32); color: white; font-family: Poppins; margin-bottom: 50px; margin-left: 470px;
+}
+
+.card{
+    width: 16rem; background-color: rgb(0, 2, 32); color: white; font-family: Poppins;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    color: white;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .hamburger input {
+    display: none;
+  }
+  
+  .hamburger svg {
+    height: 2em;
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line2 {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+  
+  .hamburger input:checked + svg {
+    transform: rotate(-45deg);
+  }
+  
+  .hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+  
+@media only screen and (max-width: 768px) {
+   #beranda h1{
+    margin-top: 100px;
+    font-size: 1.5rem;
+   }
+   #beranda p{
+    font-size: 1.1rem;
+
+   }
+   .displayNone{
+    display: none;
+   }
+   .textPhone{
+    width: 100%;
+    text-align: center;
+   }
+   .linePhone{
+    right: 0;
+    display: none;
+    width: 100px;
+   }
+   .Wakel{
+    width: 10rem; height: auto; background-color: rgb(0, 2, 32); color: white; font-family: Poppins; margin-bottom: 50px; margin-left: 100px;
+   }
+   .cardPhone{
+    width: 156px;
+    height: 250px;
+   }
+   .card .card-title{
+    font-size: 14px;
+   }
+   .card .card-text{
+    font-size: 10px;
+   }
+   .titlePhone{
+    margin-bottom: -10px;
+   }
+  }
